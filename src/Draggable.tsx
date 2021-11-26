@@ -7,7 +7,7 @@ function Draggable(props: any) {
 
     const { attributes, listeners, setNodeRef, transform } =
         useDraggable({
-            id: 'draggable',
+            id: props.id,
         });
 
     const style = {
